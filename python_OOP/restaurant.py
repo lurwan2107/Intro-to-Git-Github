@@ -10,6 +10,7 @@ class Restaurant:
 
   def open_restaurant(self):
     print(f"\n{self.res_nem} is usually opened at exactly 10am everyday")
+    print("We open at 12pm on weekend")
 
 my_restaurant = Restaurant("KCR", "SHAWARMA")
 my_restaurant.describe_restaurant()
